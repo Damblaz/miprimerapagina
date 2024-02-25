@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../Udemy/freelancer_inicio"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../miprimerapagina"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "clase1 PWDC"
+	}
+}

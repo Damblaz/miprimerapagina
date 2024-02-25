@@ -73,6 +73,16 @@ main {
     }
 
 
+    .nuevo-div {
+        font-weight: bolder;
+        text-align: center ;
+        border: solid grey 2px;
+        display: block;
+        background-color: #ccc; /* Color de fondo opcional */
+        padding: 20px; /* Ajusta el relleno según tus necesidades */
+        margin-top: 10px; /* Ajusta el margen superior según tus necesidades */
+    }
+
    .seccion-1, .seccion-2{
     
     flex: 1;

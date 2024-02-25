@@ -1,0 +1,614 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    font-size: x-large;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(img/77609301-fondo-abstracto-de-la-tecnología-con-tonos-azules-y-blancos.jpg); /* Reemplaza 'ruta-de-la-imagen.jpg' con la ruta real de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+.seccion-0 {
+    text-align: center; /* Centra el contenido de la sección horizontalmente */
+    background-color: #e9b0e9; /* Añade un color de fondo opcional */
+    width: 100%;
+    padding: 2px;
+    font-family: cursive;
+    font-size: xx-large;
+    
+}
+
+
+
+
+ol, ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+    margin-top: 1%;
+    
+}
+
+nav {
+    display: flex; /* Otra opción es display: block;  */
+    justify-content: center; /* Alinea los elementos del menú horizontalmente */
+    padding: 5px; /* Ajusta el relleno  */
+    background-color: #2189ff; /* Ajusta el color de fondo  */
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+
+header nav ul {
+    display: flex;
+    gap: 1em;
+
+}
+
+
+header nav ul li a:hover {
+    /* Pseudo-clase para el estado de "hover" (ratón sobre el enlace) */
+    color: #ffffff; 
+
+}
+header nav ul li a {
+        font-size: x-large;
+        text-decoration: none;
+        color: #000000; /* Establece el color de texto predeterminado para los enlaces */
+    }
+
+main {
+    display: flex; 
+    margin-top: 20px;
+    }
+
+
+   .seccion-1, .seccion-2{
+    
+    flex: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    max-width: 80%; /* Establece el ancho máximo */
+    padding: 20px; /* Añade un relleno para resaltar el contenido y los bordes */
+    background-color: #2189ff; /* Añade un color de fondo opcional */
+    border-radius: 10px; /* Añade bordes redondeados */
+    font-weight: bolder;
+    
+   } 
+
+
+   .seccion-1 img, .seccion-2 img{
+    max-width: 100%;
+    height: auto;
+   }
+
+.seccion-3 {
+    background-color: #7dbaff;
+    border-radius: 10px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%; 
+    width: 60%;
+    height: auto; 
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+}
+.seccion-3 h2{
+    text-align: center;
+    margin: 0;
+}
+.seccion-3 img {
+    max-width: 60%; 
+    height: auto; 
+    border: 1px solid rgb(18, 0, 182);
+}
+
+
+
+.seccion-1 .Servicios.imagen,
+.seccion-2 .Trabajos.imagen {
+    max-width: 100%; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1px;
+    
+}
+
+main h2{
+        text-align: center;
+    }
+main p{
+        text-align: center;
+    }
+    
+    .Acerca img {
+        display: block;
+        margin: auto;
+    
+    }
+
+  footer h2{
+    margin-right: 15px;
+  }
+    
+    footer nav ul {
+        display: flex;
+        justify-content: space-between;
+        background-color: #2189ff;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+    
+    footer {
+      
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    /* Ajusta el espacio entre los elementos dentro del nav */
+    footer nav li {
+        margin-right: 10px; 
+    }
+    footer nav ul li img {
+        
+        width: 60px;  
+        height: 60px; 
+        margin: 10px; 
+        border-radius: 50%;
+      }
+      
+    
+    .Articulos{
+        display: flex;
+        max-width: 80%;
+        align-items: center;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        
+    }
+    .Articulo1{
+       margin-right: auto;
+    }
+    .Articulo2{
+        margin-right: auto;
+    }
+
+    .Articulo1, .Articulo2{
+        background-color: #2189ff; /* Añade un color de fondo opcional */
+        border-radius: 10px; /* Añade bordes redondeados */
+        font-weight: bolder;
+        padding: 40px; /* Añade un relleno para resaltar el contenido y los bordes */
+        margin: 20px; /* Ajusta el margen según sea necesario */
+        border: 2px solid black;
+    }
+    
+    .Articulo1 h3, .Articulo2 h3 {
+        text-align: center; /* Centra el título */
+    }
+    
+    .Articulo1 p, .Articulo2 p, .Articulo3 p {
+        text-align: justify; /* Justifica el texto */
+    }
+    
+#Testimonios{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+
+}
+#Testimonios h2{
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+   
+}
+section[class^="cliente"] {
+    width: 30%;
+    margin-bottom: 20px; /* Agrega espacio entre las secciones */
+    padding: 10px; /* Agrega relleno para resaltar los testimonios */
+    border: 1px solid #ccc; /* Agrega un borde para separar visualmente los testimonios */
+    border-radius: 10px;
+}
+
+section[class^="cliente"] p {
+    margin: 0; /* Elimina el margen predeterminado para los párrafos */
+    font-weight: bold;
+}
+
+section[class^="cliente"] .Opinion {
+    font-style: italic; /* Agrega estilo cursiva al texto de la opinión */
+    background-color: rgb(140, 250, 213);
+    border-radius: 15px;
+}
+
+/* ------------- Encabezado Contacto ------------- */
+.containerform{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.containerform {
+    text-align: center;
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 10px;
+  
+    width: 80%;
+    margin: 10px auto;
+    padding: 50px;
+  }
+  
+  .form-header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+    /* ------------- Formulario ------------- */
+
+    .formulario {
+        background-color: #f6f7f8;
+        border: 1px solid #d6d9dc;
+        border-radius: 3px;
+      
+        width: 80%;
+        padding: 50px;
+        margin: 30px 0 40px 0;
+        font-weight: bold;
+      }
+    
+    
+      /* ------------- Campos del Formulario ------------- */
+    
+    .form-row {
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      
+      .form-row input[type="text"] {
+        background-color: #bdbdbd;
+        border: 0;
+        border-radius: 6px;
+        width: 100%;
+        padding: 7px;
+        font-size: 14px;
+      }
+      
+      .form-row label {
+        margin-bottom: 3px;
+        text-align: initial;
+      }
+      .form-row input[type="email"] {
+        background-color: #bdbdbd;
+        border: 0;
+        border-radius: 6px;
+        width: 100%;
+        padding: 7px;
+        font-size: 14px;
+      }
+    
+    
+      .form-row textarea {
+        font-family: "Helvetica", "Arial", sans-serif;
+        font-size: 14px;
+      
+      
+        background-color: #bdbdbd;
+        border: 0;
+        border-radius: 6px;
+      
+      
+        min-height: 200px;
+        margin-bottom: 10px;
+        padding: 7px;
+        resize: none;
+      
+      
+        width: 100%;
+      }
+
+      .form-row button {
+        font-size: 16px;
+        font-weight: bold;
+      
+      
+        color: #ffffff;
+        background-color: #5995da;
+      
+      
+        border: none;
+        border-radius: 3px;
+      
+      
+        padding: 10px 40px;
+        cursor: pointer;
+      }
+      
+      
+      .form-row button:hover {
+        background-color: #76aeed;
+      }
+      
+      
+      .form-row button:active {
+        background-color: #407fc7;
+      }
+      
+
+
+#check {
+    display: block;
+}
+
+.checkbtn {
+    font-size: 25px;
+    color: black;
+    left: 0;
+    line-height: 80px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+
+   /* Estilos para pantallas más grandes que 768px */
+#check {
+    display: none;
+}
+
+.checkbtn {
+    display: none;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    position: fixed;
+    left: 20px;
+    top: 10px;
+    
+    
+}
+
+
+/* Estilos para pantallas más pequeñas o iguales a 768px */
+
+
+
+
+
+@media (max-width: 768px) {
+
+    #check {
+        display: none;
+        
+        
+    }
+    #check:checked ~ ul{
+        display: block;
+        left: 0%;
+    }
+    
+    .checkbtn {
+        display: block;
+        
+        
+    }
+    
+   
+    
+
+    header nav ul {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 100px;
+        left: -100%;
+        background-color: rgb(40, 60, 238);
+        border-radius: 10px;
+        transition: all 0.5s;
+    }
+    header nav ul {
+        display: none; /* Oculta la lista de enlaces en pantallas pequeñas */
+    }
+    
+    header nav ul li{
+        display: block;
+        margin: 50px ;
+        line-height: 20px;
+    }
+    header nav ul li a{
+        font-size: 20px;
+    }
+
+
+
+body{
+        font-family: 'Nunito', sans-serif;
+        font-size: small;
+        margin: 0;
+        padding: 0;
+    }
+
+    
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+     
+
+    main{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 5%;
+    }  
+
+    
+
+    header nav ul li {
+        text-align: center; /* Centra los enlaces en el menú desplegable */
+    }
+
+    header nav ul li a {
+        color: #000000;
+        font-size: x-large;
+        text-decoration: none;
+        padding: 15px; /* Ajusta el relleno según tus necesidades */
+        display: block; /* Asegura que los enlaces ocupen todo el ancho del menú */
+    }
+
+    header nav ul li a:hover {
+        color: #ffffff;
+    }
+
+    .seccion-1, .seccion-2{
+        background-color: #7dbaff;
+    }
+    .seccion-1 .Servicios.imagen,
+    .seccion-2 .Trabajos.imagen {
+        max-width: 100%; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1px;
+    
+    }
+    .seccion-3{
+        flex-direction: column;
+
+    }
+    .Articulos{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .Articulo1, .Articulo2{
+        padding: 5px;
+        margin-right: 0;
+        max-width: 80%;
+    }
+    .Articulo1, .Articulo2{
+        margin-bottom: 15px;
+        background-color: #7dbaff;
+    }
+    #Testimonios{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    section[class^="cliente"] {
+        width: 100%; /* Cambia el ancho a 100% */
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        align-items: center;
+    }
+
+    section[class^="cliente"] .Opinion {
+        width:100%
+    }
+
+    
+    footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    footer nav{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer nav ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #2189ff;
+        font-weight: bold;
+        border-radius: 10px;
+        width: 100%;
+        margin: 0;
+        padding: 0;        
+    }
+
+    footer nav li {
+        margin-right: 0;
+    }
+
+    footer nav ul li img {
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        border-radius: 50%;
+    }
+
+    
+
+.navbar ul.menu{
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    opacity: 0;
+}
+.navbar ul.menu li a:hover{
+    color:rgb(255, 255, 255)
+}
+.navbar ul.menu li{
+    font-weight: lighter;
+    font-size: 10px;
+    margin: auto;
+    padding: 5%;
+}
+
+.navbar.active {
+    height: 100vh;
+}
+ .navbar.active ul.menu {
+    opacity: 1;
+ }
+
+
+
+
+}
